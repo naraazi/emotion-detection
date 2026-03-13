@@ -207,15 +207,6 @@ Este projeto é adequado para:
 
 Não deve ser tratado, no estado atual, como solução pronta para produção sem refatoração de configuração, portabilidade, observabilidade e testes.
 
-## Próximos Passos Recomendados
-
-- substituir caminhos absolutos por `pathlib` e caminhos relativos ao repositório
-- adicionar `requirements.txt` ou `pyproject.toml`
-- centralizar parâmetros de execução, como câmera, arquivos de saída e modelo
-- incluir tratamento de erro para indisponibilidade de câmera ou falhas do DeepFace
-- consolidar os scripts em uma CLI única
-- adicionar testes básicos para geração de CSV e gráficos
-
 ## Resumo Executivo
 
 O repositório implementa um pipeline local de detecção de emoções faciais em tempo real com capacidade de exportação analítica. É um projeto de prototipação técnica bem direcionado para experimentação e demonstração, com base sólida em bibliotecas conhecidas, mas ainda dependente de ajustes de portabilidade e empacotamento para uso mais amplo.
